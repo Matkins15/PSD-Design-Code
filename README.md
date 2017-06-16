@@ -1,2 +1,2 @@
-# PSD-Design-Code-
+# PSD-Design-Code
 PSD design to HTML, CSS practice
