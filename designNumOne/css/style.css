@@ -22,7 +22,6 @@ h1 {
     align-items: center;
 }
 
-
 .home {
     background-color: #3387ea;
     width: 150px;
@@ -150,4 +149,14 @@ h1 {
     height: 80px;
     margin: 5px;
     background-image: url(../images/google+.png);
+}
+
+.copyright {
+    background-image: url(../images.copyright.png);
+    z-index: 1;
+}
+
+p {
+    padding: 100px 0px 0px 10px;
+
 }
