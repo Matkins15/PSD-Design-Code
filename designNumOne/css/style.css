@@ -11,7 +11,10 @@ h1 {
     font-size: 36px;
     font-weight: 100;
     color: #fff;
+}
 
+p {
+    padding: 100px 0px 0px 10px;
 }
 
 .grid-body {
@@ -107,10 +110,14 @@ h1 {
 }
 
 .nouncy {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #151a26;
     width: 470px;
     height: 150px;
     margin: 5px;
+    color: white;
 }
 
 .contact {
@@ -154,9 +161,4 @@ h1 {
 .copyright {
     background-image: url(../images.copyright.png);
     z-index: 1;
-}
-
-p {
-    padding: 100px 0px 0px 10px;
-
 }
