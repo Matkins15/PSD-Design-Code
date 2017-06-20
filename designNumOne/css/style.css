@@ -118,7 +118,7 @@ h1 {
 .nouncy-text {
     display: inline-block;
     height: inherit;
-    padding-left: 10px;
+    padding-left: 20px;
     font-family: "Helvetica Neue";
     font-size: 18px;
     font-weight: 100;
@@ -126,7 +126,9 @@ h1 {
 
 #nouncy-p {
     display: flex;
-    width: 200px;
+    font-size: 22px;
+    width: 250px;
+    margin-bottom: 0px;
 }
 
 #nouncy-blog {
@@ -179,6 +181,11 @@ h1 {
 }
 
 .copyright {
-    background-image: url(../images.copyright.png);
-    z-index: 1;
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-weight: 100;
+    color: #fff;
+    margin-left: 570px;
 }
