@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 150px;
     justify-content: center;
 
 }
@@ -25,6 +25,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 60px;
     width: 400px;
     background-color: #3b5998;
     color: #fff;
@@ -35,6 +36,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 60px;
     width: 400px;
     background-color: #55acee;
     color: #fff;
@@ -47,4 +49,51 @@ img {
 #first-text {
     margin: 0 auto;
     color: #fff;
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#first-name {
+    height: 50px;
+    width: 390px;
+}
+
+#last-name {
+    height: 50px;
+    width: 390px;
+    margin-left: 10px;
+
+}
+
+#email {
+    height: 50px;
+    width: 800px;
+    margin-top: 5px;
+}
+
+#password {
+    height: 50px;
+    width: 800px;
+    margin-top: 5px;
+}
+
+#second-text {
+    margin: 0 auto;
+    color: #fff;
+}
+
+span {
+    color: #03abd8;
+}
+
+.button {
+    width: 800px;
+    height: 50px;
+    background-color: #40a46f;
+    color: #fff;
+    margin: 0 auto;
 }
