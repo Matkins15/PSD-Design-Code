@@ -58,9 +58,9 @@ input.form-control {
     padding: 30px;
 }
 
-.wines p {
+span.highlight{
     background-color: #eee;
-    width: 100px;
+    padding: 0px;
 }
 
 #filter, #category, #price, #collections, #brand, #flavor, #food-pairing, #country {
