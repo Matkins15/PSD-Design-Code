@@ -24,7 +24,7 @@ body {
     height: 80px;
     line-height: 50px;
     margin-bottom: 0px !important;
-    border-bottom: thin solid #000;
+    border-bottom: thin solid #eee;
     border-radius: 0px;
 }
 .navbar-form {
@@ -97,12 +97,26 @@ form.form-inline.navbar-right {
 .left{
     float: left;
     max-width: 300px;
-    margin-left: 50px;
+    margin-left: 10px;
+    padding-left: 10px;
     border-right: thin solid #eee;
+    /*border-left: thin solid #eee;*/
 }
 
 article {
-    border-left: thick solid #000;
+    display: flow-root !important;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
+    margin-left: 0px !important;
+	width: 21px;
+	height: 21px;
+	border: solid 1px #979797;
+}
+
+.wine-display {
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .wine-display p {
