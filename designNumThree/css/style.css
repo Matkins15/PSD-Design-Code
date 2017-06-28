@@ -1,8 +1,7 @@
-/*body {
+body {
     width: 100%;
     height: 100%;
-    font-family: AvenirNext;
-}*/
+}
 
 #primary-nav {
     color: #fff;
@@ -37,13 +36,8 @@ input.form-control {
     line-height: 50px;
 }
 
-#search-links {
-    float: right;
-    padding-left: 200px;
-    line-height: 50px;
-}
 
-.col-sm-4 h3 {
+/*.col-sm-4 h3 {
     padding-left: 29px;
     font-size: 24px;
 }
@@ -92,4 +86,33 @@ input.form {
 
 #brand, #flavor, #food-pairing, #country {
     padding-bottom: 1em;
+}*/
+
+form.form-inline.navbar-right {
+    display: flow-root;
+    margin-right: -300px;
+    margin-top: 10px;
+}
+
+.left{
+    float: left;
+    max-width: 300px;
+    margin-left: 50px;
+    border-right: thin solid #eee;
+}
+
+article {
+    border-left: thick solid #000;
+}
+
+.wine-display p {
+    display: flow-root;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#sortByFeatured {
+    float: right;
+    padding: 5px;
+    margin-right: 60px;
 }

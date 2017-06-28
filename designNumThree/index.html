@@ -8,10 +8,10 @@
         <title>Mac's Beer and Wine</title>
     </head>
     <body>
-        <div class="navbar navbar-inverse" id="primary-nav">
+        <nav>
+        <div class="navbar navbar navbar-toggleable-md navbar-inverse" id="primary-nav">
             <div class="container-fluid">
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
+                    <ul class="nav navbar-nav" id="primary-favicons">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <i class="fa fa-instagram" aria-hidden="true"></i>
@@ -21,35 +21,147 @@
                         <i class="fa fa-phone" aria-hidden="true"> 404-872-4897</i>
                         <i class="fa fa-envelope" aria-hidden="true"> orders@macsbeerandwine.com</i>
                     </ul>
-                </div>
             </div>
         </div>
 
-        <div class="navbar navbar-default" id="secondary-nav">
+        <div class="navbar navbar navbar-toggleable-md navbar-default" id="secondary-nav">
             <div class="container-fluid">
-                <div class="navbar-header">
-                    <img src="images/macs.jpeg" alt="">
-               </div>
+                <div class="navbar-brand navbar-left">
+                    <img src="images/macs.jpeg" height="40px" width="150px" alt="">
+                </div>
+                <form class="form-inline navbar-right">
+                    <div class="input-group margin-bottom-sm">
+                        <span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>
+                        <input class="form-control" placeholder="Search for any product">
+                    </div>
+                    <ul class="navbar-nav nav navbar-right" id="search-links">
+                        <li class="nav-item"><a class="nav-link" href="#">Beer</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><b>Wine</b></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Spirits</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Kegs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                </form>
+            </div>
+        </div>
+    </nav>
 
-                <ul class="nav navbar-nav" id="search-links">
+        <div class="macs-content">
+            <div class="left">
+                <h3>Filtering by: <u><span>Clear All</span></u></h3>
+                <div class="wines">
+                    <p><span class="highlight">Red Wine <i class="fa fa-times" aria-hidden="true"></i></span></p>
+                    <p><span class="highlight">White Wine <i class="fa fa-times" aria-hidden="true"></i></span></p>
+                    <p><span class="highlight">Summer Sale <i class="fa fa-times" aria-hidden="true"></i></span></p>
+                    <p><span class="highlight">Brand <i class="fa fa-times" aria-hidden="true"></i></span></p>
+                </div>
+                <hr>
+                <h3>Category</h3>
+                <div class="categories">
+                    <div class="checkbox">
+                        <input id="check1" type="checkbox" name="check" value="check1">
+                        <label for="check1">Red Wine</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">White Wine</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Chardonnay</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Champagne</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Pinot Noir</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Malbec</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Red Wine Blends</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2"><b>Show All Categories</b></label>
+                    </div>
+                </div>
+                <hr>
+                <h3>Price</h3>
+                <div class="prices">
                     <form class="navbar-form navbar-left">
-                        <div class="input-group margin-bottom-sm">
-                            <span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>
-                            <input class="form-control" placeholder="Search for any product">
+                        <div class="min-max">
+                            <input type="integer" class="form" placeholder="0">
+                             to
+                            <input type="text" class="form" placeholder="Max">
+                             Apply
                         </div>
                     </form>
-
-                    <li><a href="#">Beer</a></li>
-                    <li><a href="#"><b>Wine</b></a></li>
-                    <li><a href="#">Spirits</a></li>
-                    <li><a href="#">Kegs</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+                </div>
+                <hr>
+                <h3>Collections</h3>
+                <div class="collections">
+                    <div class="checkbox">
+                        <input id="check1" type="checkbox" name="check" value="check1">
+                        <label for="check1">Summer Sale</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Mikes Top Picks</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Collection</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Collection</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Collection</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2">Collection</label>
+                        <br>
+                        <input id="check2" type="checkbox" name="check" value="check2">
+                        <label for="check2"><b>Show All Collections</b></label>
+                    </div>
+                </div>
+                <hr>
+                <h3>Brand</h3>
+                <hr>
+                <h3>Flavor</h3>
+                <hr>
+                <h3>Food Pairing</h3>
+                <hr>
+                <h3>Country</h3>
             </div>
+
+            <article>
+                <div class="wine-display">
+                    <h2>Wine</h2>
+                    <p>Displaying 237 products <span><input type="text" name="" placeholder="Sort by featured" id="sortByFeatured"></span></p>
+
+                </div>
+                <div class="wine-bottles">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                    <img src="https://www.debruijnwijnkopers.nl/wijnkoperijdebruin/upload/891228DSCF0067.png?w=233&h=224&c=max&cc=ffffff&q=90" alt="">
+                </div>
+            </article>
         </div>
 
-        <div class="row">
+
+
+        <!-- <div class="row">
             <div class="col-sm-4" id="filter">
                 <h3>Filtering by: <u><span>Clear All</span></u></h3>
                 <div class="container">
@@ -66,7 +178,10 @@
                 </div>
             </div>
 
-            <div class="col-md-8"></div>
+            <div class="col-sm-8">
+                <img src="https://philipvonnell.co.uk/media-library/images/wine-images/_255/Black_bottle.jpg" alt="">
+                <img src="https://philipvonnell.co.uk/media-library/images/wine-images/_255/Black_bottle.jpg" alt="">
+            </div>
         </div>
 
         <div class="row">
@@ -159,7 +274,7 @@
                 <h3>Brand</h3>
             </div>
 
-            <!-- <div class="col-sm-8"></div> -->
+            <div class="col-sm-8"></div>
         </div>
 
         <div class="row">
@@ -167,7 +282,7 @@
                 <h3>Flavor</h3>
             </div>
 
-            <!-- <div class="col-sm-8"></div> -->
+            <div class="col-sm-8"></div>
         </div>
 
         <div class="row">
@@ -175,7 +290,7 @@
                 <h3>Food Pairing</h3>
             </div>
 
-            <!-- <div class="col-sm-8"></div> -->
+            <div class="col-sm-8"></div>
         </div>
 
         <div class="row">
@@ -183,8 +298,8 @@
                 <h3>Country</h3>
             </div>
 
-            <!-- <div class="col-sm-8"></div> -->
-        </div>
+            <div class="col-sm-8"></div>
+        </div> -->
 
     </body>
 </html>
