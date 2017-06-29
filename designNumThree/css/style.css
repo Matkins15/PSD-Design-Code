@@ -49,7 +49,7 @@ form.form-inline.navbar-right {
     max-width: 359px;
     margin-left: 10px;
     padding-left: 10px;
-    border-right: thin solid #eee;
+    border-right: 2px solid #eee;
     /*border-left: thin solid #eee;*/
 }
 
@@ -60,15 +60,19 @@ article {
 .wines h3 {
     margin: 20px 10px 20px 29px;
     font-family: Avenir;
+    font-size: 24px;
+	font-weight: 900;
 
 }
 
 .wines u span {
+    width: 65px;
+	height: 23px;
     font-family: Avenir-Book;
     font-size: 17px;
     font-weight: 100;
-    padding-left: 99px;
-
+    padding-left: 90px;
+	font-weight: normal;
 }
 
 .filtering-items {
@@ -77,7 +81,6 @@ article {
     margin: 21px 70px 75px 29px;
     font-family: Avenir-Book;
     font-size: 17px;
-
 }
 
 span.highlight{
@@ -93,8 +96,9 @@ span.highlight{
     opacity: 0.3;
 	border-radius: 4px;
 	background-color: #e8eaf1;
-    
+    margin-bottom: 5px;
 }
+
 
 .highlight2 {
     width: 120px;
@@ -129,6 +133,21 @@ span.highlight{
     height: 300px;
 }
 
+.categories h3 {
+    width: 104px;
+	height: 33px;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 900;
+    margin: 31px 212px 41px 43px;
+}
+
+.checkbox {
+    margin: 0px 118px 50px 41px;
+    font-family: Avenir-Book;
+	font-size: 17px;
+}
+
 .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox], .radio input[type=radio], .radio-inline input[type=radio] {
     margin-left: 0px !important;
 	width: 21px;
@@ -151,6 +170,82 @@ span.highlight{
 
 .wine-bottles {
     margin-top: 80px;
+}
+
+.prices h3 {
+    width: 56px;
+    height: 33px;
+    margin: 27px 260px 28px 44px;
+    font-family: Avenir;
+    font-size: 24px;
+	font-weight: 900;
+
+}
+
+.min-max {
+    margin: 0px 86px 50px 44px;
+    font-family: Avenir-Book;
+
+}
+
+.min-max input.form{
+    width: 65px;
+	height: 49px;
+	border: solid 1px #ced0da;
+    padding-left: 15px;
+}
+
+#zero-input, #max-input {
+    margin-right: 6px;
+}
+
+#max-input {
+    margin-left: 5px;
+}
+
+.collections h3 {
+    margin: 28px 192px 40px 44px;
+    width: 124px;
+	height: 33px;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+.brand {
+    width: 67px;
+	height: 33px;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 900;
+    margin: 27px 249px 27px 44px;
+}
+
+.flavor {
+    width: 70px;
+	height: 33px;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 900;
+    margin: 27px 246px 27px 44px;
+}
+
+.food-pairing {
+    width: 150px;
+    height: 33px;
+    font-family: Avenir;
+    font-size: 24px;
+    font-weight: 900;
+    margin: 27px 172px 27px 44px;
+}
+
+.country {
+    width: 90px;
+	height: 33px;
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: 900;
+    margin: 27px 226px 27px 44px;
 }
 
 #sortByFeatured {
